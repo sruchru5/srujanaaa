@@ -1,0 +1,68 @@
+body{
+    background-color: #e90d56;
+    background-size: cover;
+}
+.multiwebpress
+{
+        width: 310px;
+        height: auto px;
+        border: 1px solid #ccc;
+        border-radius: 0px;
+        margin-left: 150px;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        padding: 50px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+        border-collapse: separate;
+        background-clip:padding-box;
+        column-gap: normal;
+    }
+    
+div{
+    border-radius: 0%;
+    box-shadow: 0.1px 0.1px 0.1px;
+}
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }  
+  .special-box {
+    margin-top: 28px;
+    height: 735px;
+    background-color: #ffffff; /* Background color for the pop-up box */
+    font-weight:normal; /* Bold text for the pop-up box */
+    color: #333; /* Text color for the pop-up box */
+    box-shadow: 10 10 10px rgba(0, 0, 0, 0.1); /* Box shadow for the pop-up box */
+  }
+  
+
+
+
+
+
