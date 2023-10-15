@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sphere Volume Calculator</title>
+    <link rel="stylesheet" href="sphererad.css">
+    <style> 
+        div {
+          width: 100px;
+          height: 250px;
+          background-color: rgb(192, 153, 170);
+          animation-name: example;
+          animation-duration: 1s;
+        }
+        
+        @keyframes example {
+          from {background-color: rgb(97, 73, 90);}
+          to {background-color: rgb(5, 0, 1);}
+        }
+        @font-face {
+            font-family:monospace;
+            src: url(sansation_light.woff);s
+         }
+         
+         * {
+            font-family: myFirstFont;
+         }
+        </style>
+</head>
+<body>
+    <div class="sphererad">
+        <h1>Sphere Volume</h1>
+        <label for="radius">Enter Radius:</label>
+        <br/>
+        <input type="number" id="radius" placeholder="Enter the value">
+        <br/>
+        <br/>
+        <button onclick="calculateVolume()">Calculate Volume</button>
+        <p id="result"></p>
+    </div>
+    <script src="sphererad.js"></script>
+</body>
+</html>

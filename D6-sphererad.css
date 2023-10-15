@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url("https://th.bing.com/th/id/R.6bb8d85805d322c2b674d89ec65b2617?rik=G0aZSZ0bEMhx5w&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fF3wEoSC.jpg&ehk=dxzpc2Be6vR1kLeKi9wyJi84pG5mTo4pplpoRm3saZg%3d&risl=&pid=ImgRaw&r=0");
+}
+
+.sphererad {
+    text-align: center;
+    border:1.5px solid rgb(5, 5, 5);
+    border-width: 2px;
+    border-radius: 20px;
+    width:300px;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    box-shadow: 10px;
+}
+input[type="number"]{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    width: 270px;
+    height: 25px;
+    border-radius: 7px;
+    border-color: rgb(132, 31, 31);
+    background-color: rgb(225, 159, 227);
+    box-shadow: 5cm;
+}
+
+input, button {
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
